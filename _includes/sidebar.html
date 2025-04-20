@@ -1,0 +1,21 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+	<center></center><img src="/assets/images/profile_pic.jpg" alt="profile picture" 	class="responsive"></center>
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+ <div class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/index.html" {% if page.active == 'about' %}style="font-weight:bold"{% endif %}>About</a>
+      <a class="sidebar-nav-item" href="/projects" {% if page.active == 'projects' %}style="font-weight:bold"{% endif %}>Projects </a>
+      <a class="sidebar-nav-item" href="/research" {% if page.active == 'research' %}style="font-weight:bold"{% endif %}>Research</a>
+      <a class="sidebar-nav-item" href="/writings" {% if page.active == 'writings' %}style="font-weight:bold"{% endif %}>Writings</a>
+      <a class="sidebar-nav-item" href="/fun" {% if page.active == 'fun' %}style="font-weight:bold"{% endif %}>Fun</a>
+    </div>
+  </div>
+</div>
