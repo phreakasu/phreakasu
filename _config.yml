@@ -10,6 +10,12 @@ author:
   name: Susan Su
   url: https://suasn.live
 
+# Social media links
+social:
+  linkedin: https://www.linkedin.com/in/susan-su/
+  twitter: https://x.com/iamsuasn
+  substack: https://suasn.substack.com
+
 # Permalinks
 permalink: pretty
 
@@ -33,6 +39,8 @@ exclude:
   - README.md
   - LICENSE.md
   - .gitignore
+  - Gemfile
+  - Gemfile.lock
 
 # GitHub Pages specific
 github: [metadata]
