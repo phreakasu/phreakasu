@@ -325,3 +325,30 @@ a.sidebar-nav-item:focus {
     grid-template-columns: 1fr;
   }
 }
+/* Sidebar social media icons */
+.sidebar-social {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sidebar-social a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: rgba(255,255,255,.5);
+  transition: color 0.2s;
+}
+
+.sidebar-social a:hover {
+  color: rgba(255,255,255,.8);
+}
+
+.sidebar-social svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* Profile picture styling */
+.sidebar-about img {
+  border: 3px solid rgba(255,255,255,.2);
+}
