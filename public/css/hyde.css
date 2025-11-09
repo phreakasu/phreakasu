@@ -13,45 +13,33 @@
  * https://github.com/poole/hyde.
  */
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
   }
 }
+
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
-
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
 
 .sidebar {
   text-align: center;
@@ -59,51 +47,50 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 20rem;
     text-align: left;
   }
 }
 
-/* Sidebar links */
 .sidebar a {
   color: #fff;
 }
 
-/* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 3.15rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.5rem;
 }
 
-/* Sidebar nav */
+.sidebar-about img {
+  border: 3px solid rgba(255,255,255,.2);
+}
+
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
+
 .sidebar-nav-item.active {
   font-weight: bold;
 }
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
 
 @media (min-width: 48em) {
   .sidebar-sticky {
@@ -114,13 +101,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
@@ -128,204 +108,19 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 36rem;
-    margin-left: 18rem;
+    max-width: 38rem;
+    margin-left: 22rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 24rem;
     margin-right: 4rem;
   }
 }
 
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
-}
-
-/* Custom styles for projects gallery */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.project-card a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.project-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-}
-
-.project-card h3 {
-  margin: 1rem;
-  font-size: 1.25rem;
-}
-
-.project-card .project-year {
-  color: #9a9a9a;
-  margin-left: 1rem;
-}
-
-.project-card p {
-  margin: 0 1rem 1rem;
-  color: #515151;
-  font-size: 0.9rem;
-}
-
-/* Project detail page */
-.project-title {
-  margin-bottom: 0.5rem;
-}
-
-.project-date {
-  color: #9a9a9a;
-  font-size: 1rem;
-}
-
-.back-link {
-  display: inline-block;
-  margin-top: 2rem;
-  color: #268bd2;
-  text-decoration: none;
-}
-
-.back-link:hover {
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
-/* Sidebar social media icons */
 .sidebar-social {
   margin-top: 2rem;
   text-align: center;
@@ -340,6 +135,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-social a:hover {
   color: rgba(255,255,255,.8);
+  text-decoration: none;
 }
 
 .sidebar-social svg {
@@ -348,7 +144,84 @@ a.sidebar-nav-item:focus {
   vertical-align: middle;
 }
 
-/* Profile picture styling */
-.sidebar-about img {
-  border: 3px solid rgba(255,255,255,.2);
+.layout-reverse .sidebar {
+  left: auto;
+  right: 0;
+}
+
+.layout-reverse .content {
+  margin-left: 2rem;
+  margin-right: 20rem;
+}
+
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
 }
