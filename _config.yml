@@ -1,41 +1,38 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+title: Susan Su
+tagline: 'A personal site'
+description: 'a wandering dot'
+url: https://suasn.live
+baseurl: ''
 
-
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-
-
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-paginate:            5
-paginate_path:       "page:num"
+# About/contact
+author:
+  name: Susan Su
+  url: https://suasn.live
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 
-# Setup
-title:            Susan Su
-tagline:          'A personal site'
-description:      'a wandering dot'
-url:              https://suasn.live
-baseurl:          /
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
-author:
-  name:           'Susan Su'
-  url:            https://twitter.com/iamsuasn
+# Gems/Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
 
-paginate:         5
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE.md
+  - .gitignore
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# GitHub Pages specific
+github: [metadata]
