@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-permalink: /research
 ---
 
 My research interests lie at the intersection of mechanical and biological engineering. Some topics I am especially interested in include biomaterials and biomechanics, affordable diagnostics and therapeutics, microfluidics & organ-on-a-chip platforms, brain-machine interfaces, and assistive tech.
