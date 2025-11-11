@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "2.75 Portable Pulse Detector for CPR (2023)"
+title: "2.75 Portable Pulse Detector for CPR"
 date: 2023-05-01
 image: pulse-detector.jpeg
 excerpt: "A portable device for detecting pulse during CPR procedures."
