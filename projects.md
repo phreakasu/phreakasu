@@ -4,7 +4,8 @@ title: Projects
 ---
 
 <div class="projects-grid">
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
     <div class="project-card">
       <a href="{{ project.url | relative_url }}">
         {% if project.image %}
@@ -13,9 +14,6 @@ title: Projects
         <h3>{{ project.title }}</h3>
         {% if project.date %}
           <span class="project-year">({{ project.date | date: "%Y" }})</span>
-        {% endif %}
-        {% if project.excerpt %}
-          <p>{{ project.excerpt }}</p>
         {% endif %}
       </a>
     </div>
@@ -58,12 +56,8 @@ title: Projects
   color: #999;
   font-size: 0.9rem;
   margin-left: 1rem;
-}
-
-.project-card p {
-  margin: 0.5rem 1rem 1rem 1rem;
-  color: #666;
-  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .project-card a {
