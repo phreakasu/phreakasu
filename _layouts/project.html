@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="project">
+  <a href="{{ site.baseurl }}/projects/" class="back-link">← Back to Projects</a>
+  
   <h1 class="project-title">{{ page.title }}</h1>
   
   {% if page.date %}
@@ -10,10 +12,26 @@ layout: default
   {% endif %}
   
   {% if page.image %}
-    <img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="{{ page.title }}" style="width: 100%; max-width: 800px; margin: 2rem 0;">
+    <img src="{{ site.baseurl }}/projects/images/{{ page.image }}" alt="{{ page.title }}" style="width: 100%; max-width: 800px; margin: 2rem 0;">
   {% endif %}
   
   {{ content }}
-  
-  <a href="{{ site.baseurl }}/projects/" class="back-link">← Back to Projects</a>
 </div>
+
+<style>
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #268bd2;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-date {
+  color: #999;
+  font-style: italic;
+}
+</style>
