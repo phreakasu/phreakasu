@@ -16,9 +16,7 @@ Comments/feedback always appreciated!
 
 ## Blogs
 
-A compilation of things I write about:
-
-- My personal substack, [shout into the void](https://suasn.substack.com/): for personal/misc/random content from my life.</li>
+- My personal substack, [shout into the void](https://suasn.substack.com/): for personal/misc/random content from my life.
 - [Freetown Lights](https://freetownlights.substack.com/): where I documented the stories of people I met in Sierra Leone
 
 
