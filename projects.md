@@ -9,7 +9,7 @@ title: Projects
     <div class="project-card">
       <a href="{{ project.url | relative_url }}">
         {% if project.image %}
-          <img src="{{ site.baseurl }}/_projects/images/{{ project.image }}" alt="{{ project.title }}">
+          <img src="{{ site.baseurl }}/assets/projects/{{ project.image }}" alt="{{ project.title }}">
         {% endif %}
         <h3>{{ project.title }}</h3>
         {% if project.date %}
