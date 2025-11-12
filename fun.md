@@ -4,7 +4,7 @@ layout: page
 ## Fun things I'm working on
 <div class="fun-projects-grid">
   <div class="fun-card">
-    <a href="/fun/liminal-space">
+    <a href="https://liminalspace.transistor.fm/" target="_blank" rel="noopener">
       <img src="/public/assets/fun/liminal-space.jpeg" alt="Liminal Space Podcast">
       <h3>Liminal Space Podcast</h3>
       <span class="project-year">(2025)</span>
@@ -15,9 +15,10 @@ layout: page
 <style>
 .fun-projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
   gap: 2rem;
   margin: 2rem 0;
+  justify-content: start;
 }
 
 .fun-card {
@@ -25,6 +26,7 @@ layout: page
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
+  width: 280px;
 }
 
 .fun-card:hover {
@@ -34,7 +36,7 @@ layout: page
 
 .fun-card img {
   width: 100%;
-  height: 200px;
+  height: 280px;
   object-fit: cover;
   margin: 0;
 }
