@@ -9,7 +9,6 @@ excerpt: "A portable device for detecting pulse during CPR procedures."
 ## Affiliation: MIT Medical Device Design (2.75)
 
 Working with a group of emergency physicians at the Beth Israel Deaconess Medical Center, my team and I developed a portable and compact pulse detection device for use in emergency settings.
-![Pulse detector](/public/assets/projects/pulse-detector.jpeg)
 
 Our device is based on the principles reflection photoplethysmography (PPG), which detects changes in blood volume by transmitting and measuring the amount of light reflected via a photosensor. We used an off-the-shelf optical sensor from PulseSensor.com with the Seeduino Xiao microprocessor. Our custom signal processing algorithm utilizes normalization and derivative-based processing to identify pulse signals from the sensor. Feedback is given to the user via audio and visual signals from a speaker and LED.
 ![Pulse detector schematic](/public/assets/projects/pulse-2.png)
