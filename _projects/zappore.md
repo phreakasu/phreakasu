@@ -2,7 +2,7 @@
 layout: project
 title: Zappore
 date: 2020-09-12
-image: zappore.jpeg        # Just the filename
+image: zappore.png        # Just the filename
 
 ---
 ## Zap-pore: A low-cost electroporation tool for education and exploration (June 2020 – Aug. 2020)
