@@ -1,6 +1,64 @@
 ---
 layout: page
-title: Fun
+---
+## Fun things I'm working on
+<div class="fun-projects-grid">
+  <div class="fun-card">
+    <a href="/fun/liminal-space">
+      <img src="/public/assets/fun/liminal-space.jpeg" alt="Liminal Space Podcast">
+      <h3>Liminal Space Podcast</h3>
+      <span class="project-year">(2025)</span>
+    </a>
+  </div>
+</div>
+
+<style>
+.fun-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.fun-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fun-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.fun-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.fun-card h3 {
+  margin: 1rem 1rem 0.5rem 1rem;
+  color: #303030;
+}
+
+.fun-card .project-year {
+  color: #999;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.fun-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+</style>
+
 ---
 
 ## Some fun facts:
