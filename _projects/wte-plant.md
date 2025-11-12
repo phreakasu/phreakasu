@@ -13,4 +13,4 @@ As a design intern at BAM, I researched the restructuring of Waste-to-Energy (WT
 
 I took advantage of the “stacked” model of a single-line incinerator proposed in literature and rescaled it to include three incineration lines and two turbine generators – approximately enough to handle the trash consumption of half of the Chaoyang District (the most populated district) in Beijing, China. Please see below for a step-by-step schematic from a presentation to a client. Designs were modeled using RHINO 6 and AutoCAD, and the presentation was created using InDesign.
 
-![wte-steps](/public/assets/projects/wte.jpeg)
+![wte-steps](/public/assets/projects/wte.png)
