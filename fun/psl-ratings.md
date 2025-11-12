@@ -1,6 +1,7 @@
 ---
 layout: page
 title: cambridge-area pumpkin spice latte ratings
+permalink: /fun/psl-ratings/
 ---
 
 [← Back to Fun](/fun)
