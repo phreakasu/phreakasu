@@ -74,4 +74,5 @@ title: because this site is starting to read like a CV...
 ## Some lists:
 - [Best classes I’ve taken at MIT](https://suasn.substack.com/p/my-top-mit-classes?sd=pf)
 - [Cambridge-area PSL ratings](/fun/psl-ratings)
+- [Things I like](/fun/things-i-like)
   
