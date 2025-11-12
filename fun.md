@@ -12,4 +12,5 @@ title: Fun
 
 ## Some lists:
 - [Best classes I’ve taken at MIT](https://suasn.substack.com/p/my-top-mit-classes?sd=pf)
+- [Cambridge-area PSL ratings](/fun/psl-ratings)
   
