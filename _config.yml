@@ -1,5 +1,5 @@
 # Site settings
-title: Susan Su
+title: susan su
 tagline: 'a wandering dot'
 description: 'a person site'
 url: https://suasn.live
@@ -7,7 +7,7 @@ baseurl: ''
 
 # About/contact
 author:
-  name: Susan Su
+  name: susan su
   url: https://suasn.live
 
 # Social media links
