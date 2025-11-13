@@ -6,7 +6,7 @@ title: About
 
 Hi I’m Susan!
 
-Welcome to my personal page, where I post [random life updates](https://suasn.substack.com/), make [a lot of lists]({{ site.baseurl }}/fun), and have all my *Productive Things* gathered in one place in case you want to hire me or something. 
+Welcome to my personal page, where I post [random life updates](https://suasn.substack.com/), make [a lot of lists]({{ site.baseurl }}/fun), and try to gather all my *Productive Things* in one place in case you want to hire me or something. 
 
 I graduated from MIT with a B.S. in Mechanical Engineering, focusing on biological engineering and global development (a.k.a. "2A 20+D-Lab"), and a humanities concentration in public policy. Since then, I've worked on infrastructure development for a prosthetics clinic in Sierra Leone and co-founded a [manufacturing consultancy](https://thesparrows.co/) helping hardware companies build their products in China. I recently moved back to Cambridge, MA -- say hi if you're in town!
 
