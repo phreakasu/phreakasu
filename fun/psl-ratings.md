@@ -11,12 +11,12 @@ ordered hot with oat milk. from best to worst.
 
 updated 2025 ratings:
 - 1369: better than last time!
-- Page & Leaf at Porter Square Books: solid flavor but not great latte art
-- Elmendorf: same as above. can't believe it's 2025 and i'm paying $6+ for a latte without properly frothed milk :rage:
-- Clear Flour Coffee Bar: actually a proper latte! but $$$
+- Page & Leaf at Porter Square Books: solid flavor but not great latte art. +1 for the books.
+- Elmendorf: same as above. can't believe it's 2025 and i'm paying $6+ for a latte without properly frothed milk 😡
+- Clear Flour Coffee Bar: actually a proper latte! but $$$ and flavor didn't stand out
 - Pepita: probably best latte overall but no pumpkin spice flavor??
-- Tatte: okay but -1 but had to drink my 'for here' order while standing because there were no seats :angry:
-- Smoot Std: too sweet and honestly quite small
+- Tatte: okay but had to drink my 'for here' order while standing because there were no seats :(
+- Smoot Std: too sweet and honestly quite small (just like darwin's used to be)
 - Flour: I love flour but i don't go for the coffee
 
 my original list from 2021-2023:
@@ -25,7 +25,7 @@ my original list from 2021-2023:
 - Render Coffee: in Boston, so coffee overall is better quality that Cambridge cafés
 - Pepita: pretty solid. +1 for ambiance.
 - Vester: a little better than okay. -1 for kendall square corporate vibe.
-- Darwins (rip): not bad but very small and expensive (like all their seasonal drinks)
+- Darwin's (rip): not bad but very small and expensive (like all their seasonal drinks)
 - Flour: just okay but convenient
 - Area 4: better coffee than the rest but no pumpkin spice flavor :/
 - Cafe Beatrice: no flavor in general. just get their pastries next time.
