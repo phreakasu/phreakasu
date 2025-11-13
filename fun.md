@@ -1,6 +1,6 @@
 ---
 layout: page
-title: because this site is starting to read like a CV...
+title: (Because this site is starting to read like a CV)
 ---
 ## Fun things I'm working on
 <div class="fun-projects-grid">
