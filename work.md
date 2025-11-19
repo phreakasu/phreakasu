@@ -8,7 +8,7 @@ title: Work
     <a href="/work/research">
       <div class="work-icon">🔬</div>
       <h3>Research</h3>
-      <p>research & publications</p>
+      <p>bio stuff</p>
     </a>
   </div>
   <div class="work-card">
