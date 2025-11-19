@@ -5,20 +5,21 @@ title: Work
 
 <div class="work-sections-grid">
   <div class="work-card">
-    <a href="/work/projects">
-      <div class="work-icon">🔧</div>
-      <h3>Projects</h3>
-      <p>Engineering projects</p>
-    </a>
-  </div>
-
-  <div class="work-card">
     <a href="/work/research">
       <div class="work-icon">🔬</div>
       <h3>Research</h3>
-      <p>Academic research and publications</p>
+      <p>research & publications</p>
     </a>
   </div>
+  <div class="work-card">
+    <a href="/work/projects">
+      <div class="work-icon">🔧</div>
+      <h3>Projects</h3>
+      <p>engineering stuff</p>
+    </a>
+  </div>
+
+  
 </div>
 
 <style>
