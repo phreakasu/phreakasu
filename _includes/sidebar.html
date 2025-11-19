@@ -12,12 +12,11 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">About</a>
-      <a class="sidebar-nav-item{% if page.url == '/research/' %} active{% endif %}" href="{{ site.baseurl }}/research/">Research</a>
-      <a class="sidebar-nav-item{% if page.url == '/projects/' %} active{% endif %}" href="{{ site.baseurl }}/projects/">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == '/work/' or page.url contains '/work/' %} active{% endif %}" href="{{ site.baseurl }}/work/">Work</a>
       <a class="sidebar-nav-item{% if page.url == '/writings/' %} active{% endif %}" href="{{ site.baseurl }}/writings/">Writings</a>
       <a class="sidebar-nav-item{% if page.url == '/fun/' %} active{% endif %}" href="{{ site.baseurl }}/fun/">Fun</a>
     </nav>
-
+    
     <div class="sidebar-social">
       {% if site.social.linkedin %}
       <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
